@@ -4,6 +4,11 @@
     background-attachment: fixed;
 }
 
+.header::after {
+    content: '';
+    
+}
+
 .header .social {
     bottom: 50px;   
 }
