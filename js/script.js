@@ -15,3 +15,4 @@ function typeText(text, typingElement, delay) {
 };
 
 document.addEventListener('DOMContentLoaded', runTypingEffect);
+
