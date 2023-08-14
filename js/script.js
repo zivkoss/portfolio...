@@ -6,4 +6,8 @@ function runTypingEffect() {
     typeText(text, typingElement, typingDelay);
 }
 
-function typeText(text, typingElement, delay) {};
+function typeText(text, typingElement, delay) {
+    for (let i = 0; i < text.length; i++) {
+        setTimeout(() => { }, delay * i);
+    }
+};
