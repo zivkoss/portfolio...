@@ -3,7 +3,7 @@ function runTypingEffect() {
     const typingElement = document.getElementById('typing-text');
     const typingDelay = 100;
 
-    typText(text, typingElement, typingDelay);
+    typeText(text, typingElement, typingDelay);
 }
 
 function typeText(text, typingElement, delay) {};
